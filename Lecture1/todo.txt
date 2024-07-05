@@ -1,0 +1,19 @@
+1. Install vs code
+2. Install git 
+3. Make github account.
+4. install  vs code extensions  = Live Preview
+
+
+FLow of course=====
+
+
+Html
+css
+css frameweorks : Bootsrap
+Js
+React Js : Library of js
+Node 
+Express : Framweork of Node
+Mongo db : Database
+
+In the whole duration w ewould learn things by making small small projects
