@@ -1,0 +1,25 @@
+
+section{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: palegreen;
+    cursor: pointer;
+}
+
+section:hover{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+a:visited{
+    color: aqua;
+    font-weight: bold;
+}
+
+.h1:hover{
+    border: 2px solid maroon;
+
+
+}

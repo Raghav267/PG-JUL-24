@@ -1,0 +1,40 @@
+/* Element Selector */
+
+h1{
+    color: palevioletred;
+    border: 2px solid black;
+}
+
+
+/* Id Selector */
+
+#special{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Class Selector */
+
+.para{
+    color: aqua;
+    text-decoration: underline;
+
+}
+
+/* Atribute Selector */
+
+a[href = "http://google.com"]{
+    color:green;
+}
+
+input[placeholder = "Enter Username"]{
+    background-color: lightcoral;
+}
+
+/* Universal Selctor  */
+
+*{
+    border: 2px solid lightpink;
+    margin: 0px;
+    padding: 0px;
+}
