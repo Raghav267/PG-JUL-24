@@ -1,0 +1,31 @@
+p{
+    height: 100px;
+    width: 700px;
+
+    border: 2px solid black;
+
+    /* padding: 10px 10px 40px 30px; */
+    padding: 10px 40px;
+
+    /* margin: 20px; */
+    /* margin-left: 40px auto; */
+    margin: 40px auto;
+}
+
+h1{
+    height: 100px;
+    width: 400px;
+    margin: 1px  auto;
+    /* border: 1px solid black; */
+}
+
+.color{
+    background-color: #0101df;
+}
+
+p:nth-of-type(4){
+    background-color: rgb(2,255,256);
+}
+p:nth-of-type(5){
+    background-color: rgba(45,55,45, 0.9);
+}

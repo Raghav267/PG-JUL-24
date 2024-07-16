@@ -1,0 +1,18 @@
+
+section{
+    /* height: 500px;
+    width: 600px; */
+    height: 40vh;
+    width: 60vw;
+    border: 2px solid grey;
+    margin: 2px auto;
+}
+div{
+    border: 2px solid black;
+    /* width: 50vw;
+    height: 75vh; */
+}
+
+li{
+    font-size: 2rem;
+}
