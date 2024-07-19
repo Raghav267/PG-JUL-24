@@ -1,0 +1,24 @@
+nav{
+    background-color: #0077b6;
+    position: fixed;
+    width: 100%;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    list-style: none;
+    padding: 16px;
+}
+li{
+    width: 130px;
+    display: inline-block;
+    margin-left: 30px;
+}
+nav ul a{
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
