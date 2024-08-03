@@ -1,0 +1,15 @@
+div{
+    height: 400px;
+    width: 800px;
+    border: 2px solid gray;
+    background-color: aqua;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div h1{
+    border: 1px solid black;
+    height:38px;
+}
