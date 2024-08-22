@@ -1,0 +1,9 @@
+0value : undefined
+pending =state
+
+1. Fulfilled = state
+     Value: 
+
+2. Rejected = state
+    value:error;
+

@@ -1,0 +1,25 @@
+DOM == Document Object Model
+
+            Html
+        head        body
+    1.Title         2. H1
+    2. Stylesheet    2. anchr, img  
+
+
+WEB APis
+They are not the part of JS 
+They are part of browser
+they are present in window object;
+useful web apis are : setTimeout, fetch , document and manymoree..
+
+document WEB APis
+\
+
+
+dom Selectors
+1.getElementbyId();
+2.getElementbyClassname();
+
+dom manuplaution is a two step process
+1. Select the element
+2. Change the elemwnt
