@@ -1,0 +1,11 @@
+DOm Seletors
+
+1/ getelementbyId
+2. getelementby Classname.3. getelement byname
+4.qyerySelector   == It selects the first Matching elment.
+5QquerySelectorAll == It selects all the matching elements
+
+hint for image tooggle
+
+setInterval is escuted infintes
+setattribute
