@@ -1,0 +1,19 @@
+classList  = add, remove, toggle, replace
+
+// Dom 
+html
+head = ttile , link, script and body
+body = h1 , para, ul , acnhors
+
+traversing
+
+parentElement, children , prevuiousElementSibling, nextElementSibling
+
+creating a element and want ot insert it.
+
+// events
+
+onClick
+
+Homework
+1. todoList
