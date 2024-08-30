@@ -1,0 +1,5 @@
+Event LifeCycle:
+    1.Caputre
+    2.Target
+    3.Bubble
+
