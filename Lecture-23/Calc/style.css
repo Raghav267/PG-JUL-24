@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    border: 2px solid black;
+    max-width: 400px;
+    border-radius: 8px;
+    margin: 2rem auto;
+}
+h2{
+    text-align: center;
+}
+#screen{
+    width: 95%;
+    display: block;
+    margin: 0px auto;
+    font-size: 2.0rem;
+}
+
+#screen:focus{
+    outline: none;
+}
+
+table{
+    border: 2px solid green;
+    width: 100%;
+    margin-top:10px ;
+}
+
+#container table td {
+    height: 50px;
+}
+
+#container table td button{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 100ms;
+    font-size: 1.5rem;
+
+}
+
+#container table td button:active{
+    transform: scale(0.9);
+}
