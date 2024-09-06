@@ -1,0 +1,28 @@
+AJAX Asynchrnous Java Script XML(Extendible Markup Lang.)
+
+Web Techinque which is used to send the request to the server
+without refreshing the cuerrent web pages.
+
+API
+
+///////////////////////////////////
+client => req == Serverr
+server =>res == client
+
+///////////////////////////////////
+cline =>req=> JS  layer = 
+
+JSON
+{
+    "name":"Harsh",
+    "occupation":"ASDE",
+
+}
+
+Web api 
+http xml request
+fetch
+
+third parties libraries
+axios
+jquery
