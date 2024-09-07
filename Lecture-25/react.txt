@@ -1,0 +1,17 @@
+Its is js library for creatig ui.
+
+Why react??
+
+1.DOm manipulation is very costly process.
+2. Loose coupling
+3. It takes less bandwidth.
+4. ver flexible
+5. React Native (Mobile UI)
+
+npm = its a command line tool which we use to magae our project.
+
+react works on components things
+
+app.js is top level components
+
+components are just js fucntions
