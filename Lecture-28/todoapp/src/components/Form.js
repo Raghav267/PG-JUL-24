@@ -1,9 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Form = () => {
+const Form = ({ addTodo, DUMMY_TODOS }) => {
+
+    let [inp, setinp] = useState("");
+
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+        setinp(inp);
+        console.log(inp);
+        addTodo(inp);
+        inp = "";
+
+    }
+
+    const handleInput = (e) => {
+        inp = e.target.value;
+
+    }
+
     return (
-        <form>
-            <input type="text" placeholder='ADD to do here' />
+        <form onSubmit={handleFormSubmit}>
+            <input type="text" placeholder='ADD to do here' onChange={handleInput} />
             <button type="submit">ADD</button>
 
         </form>
