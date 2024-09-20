@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+nav ul li{
+  cursor: pointer;
+  list-style: none;
+  text-transform: uppercase;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
