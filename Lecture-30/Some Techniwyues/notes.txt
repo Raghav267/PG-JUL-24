@@ -1,0 +1,6 @@
+1spread operator
+...arr
+
+2. Destructing
+
+3. rest  params
