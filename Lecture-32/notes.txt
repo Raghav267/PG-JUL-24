@@ -1,0 +1,54 @@
+WEB SERVERS
+
+piece of code that is running on some machine/device and serves the request.
+
+a web server is a computer that stores web server software and a website's component files. A web server connects to the Internet and supports physical data interchange with other devices connected to the web
+
+https://github.com/
+
+
+MERN  = MongoDB Express
+Express is a web framework.4
+
+65k 
+0-123 system ports
+
+
+app.use = >  It has special abilities
+for every it executes
+it automatically convers to req to req object
+
+
+ROUTING
+
+for each unique request you get a unique response.
+
+How can we make the the request unique
+protocol://resouce url   / path           / query parameters
+https://classplusapp.com/diy/newmms/? q="bsaj"
+
+type of request  + path = > to make request uniqure
+get
+post 
+delete
+put
+patch
+
+get("/path);
+get("/patha);
+
+
+local and global installation
+
+npm i -g nodemon
+
+differen - differen royres
+/r/cat
+/r/apple
+/r/dog
+
+there is something else
+
+
+// path parameters
+// query string parameters
