@@ -1,0 +1,34 @@
+get 
+    is retreive the data(to read the data) to fetch the fdata
+    all the data is visible in url
+    it has some limit over the size of data
+    data is passed as query string parameter
+
+post 
+    to submit the data at server side
+    data is not visible inside the url
+    it doesnt have any limit
+    data is present inside the body.
+
+    REST(Representational State Transfer)
+s a software architectural style
+
+const arr = [
+    comt1:
+    com3:
+    com2:
+    ..
+    ..
+        comtn:
+]
+
+get./ commnets
+
+post./ commnets
+
+get./ commnetrs / comment_id
+
+patchor put / comments/comment_id
+
+delete./commensts/comment_id
+
