@@ -26,6 +26,11 @@ app.get("/fruit", (req, res) => {
     res.render("fruit", { fruits });
 })
 
+app.get("/r/:subredit",(req,res)=>{
+    // home work
+    
+})
+
 app.listen(3000, () => {
     console.log("Server start running at 3000 port.");
 })
