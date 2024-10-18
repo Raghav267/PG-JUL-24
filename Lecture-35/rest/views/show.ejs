@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Show Comment Page</h1>
+    <h2>Author : <%=foundComment.user%>  </h2>
+    <p>Comment Text: <%=foundComment.text%></p>
+    <a href="/comments/<%=foundComment.id%>/edit">Edit</a>
+    <form action="/comments/<%=foundComment.id%>?_method=DELETE" method="post"><button>Delete</button></form>
+</body>
+</html>

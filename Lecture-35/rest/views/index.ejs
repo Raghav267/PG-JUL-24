@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h1, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            border: 2px solid gray;
+            background-color: antiquewhite;
+            margin: 0 2px;
+        }
+        button{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>All comments</h1>
+
+    <h3><a href="/comments/new">ADD new Comment</a></h3>
+    <ul>
+        <% for( let c of comments) { %>
+            <li><strong><%=c.user%> : </strong>
+                <strong><%=c.text%> </strong></</li>
+                <a href="/comments/<%=c.id%>">Show</a>
+                <a href="/comments/<%=c.id%>/edit">Edit</a>
+                <form action="/comments/<%=c.id%>?_method=DELETE" method="post">
+                    <button>Delete</button>
+                </form>
+                
+        
+        <% } %>
+
+    </ul>
+</body>
+</html>
