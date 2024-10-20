@@ -1,0 +1,41 @@
+ATOM 
+
+SQL 
+=> Data is stored in the form of tables
+=> We have conceept of Primary key and foreign keys in sql databases
+ex = MYSQL , POSTGGRE SQL, AWS;
+
+noSQL
+=> Data is not stored in the form of tables 
+=> collections here
+
+=> key value pair
+=> We dont havr such concept;
+ex= mariaDB, mongoDB, Reddis, Casendra
+
+CAP = > CONSISTENCY, AVAILABILTY AND PARTION TOLERANCE 
+sql 
+
+MONGODB  a nosql DB 
+
+it a document databases
+it is very eaasy to leanr
+it is very fast
+data is key value pair just like JSON format(BSON);
+  
+
+  mongodb databse  shell (mongo)
+
+
+ODM (o\oBJECT DATA MAPPER)
+Mongoose 
+    The central gaol of monggose is to have a 
+    easeir way to interact with the mongo DB.
+
+Model 
+    mongoose use modle to interact with the databse
+    Techincally its js class
+    The methods which are directly call by the class name are called static methods.
+
+Schema = 
+    maps diff. object keys coming from db to diff type in js.
