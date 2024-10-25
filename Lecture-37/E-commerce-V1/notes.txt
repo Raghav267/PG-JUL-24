@@ -1,0 +1,24 @@
+models
+    product
+    user
+
+public
+    css files
+    images
+    txt files
+
+views
+    products
+        product views
+    login
+        sign up page
+        login page
+        forget password page
+
+routes
+    login routes
+    product routes
+
+
+Fill some temporary data in or databse to see wether our api is workig fine or not
+seeding.
